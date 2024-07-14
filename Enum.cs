@@ -27,7 +27,7 @@ namespace Array
         public static void Main(string[] args)
         {
             month month = new month();
-            month1 = month.December;
+            
             month = month.january;
             switch (month)
             { 

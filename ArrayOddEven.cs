@@ -13,7 +13,8 @@ namespace Array
             int[] arr = { 10, 20, 15, 40, 50 };
            
              int evenindex = 0;
-            int oddindex = 0;   
+            int 
+                oddindex = 0;   
             int[] even = new int[arr.Length];
             int[] odd= new int[arr.Length];
 
