@@ -11,33 +11,15 @@ namespace Array
 
         public static void Main(string[] arhs)
         {
-
-            string s1 = "ajit";
-
-            string rev = "";
-
-            for (int i=s1.Length-1;i>=0;i--)
-            {
-
-                rev+= s1[i];
-                
+            int a = 10;
+            int b=20;
+            Console.WriteLine($"Before Swapiing a={a},b={b}");
             
-            }
+            a = b;
+            b = a;
 
-            if (s1 == rev)
-            {
+            Console.WriteLine($"After Swaping a={a},b={b}");
 
-                Console.WriteLine("Given String Is Palindrome String:");
-
-            }
-
-            else
-            { 
-            
-            Console.WriteLine("Given String Is Not Palindrome:");
-            
-            }
-           
 
            
 

@@ -19,7 +19,7 @@ namespace Array
 
             p.Sum(10, 21);
 
-            p.Sum(11, 11, 11);
+            p.Sum(11.2, 11.3, 11);
 
 
         }
@@ -33,7 +33,7 @@ namespace Array
         
         }
 
-        public void Sum(int a, int b, int c)
+        public void Sum(double a, double b, double c)
         {
 
             Console.WriteLine($"Addition={a+b+c}");

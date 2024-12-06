@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Array
 {
-    public class Shape
+    public class Shape1
     {
         public  virtual void draw()
         {
@@ -14,7 +14,7 @@ namespace Array
 
         }
     }
-    public class circle : Shape
+    public class circle1 : Shape1
 
     {
 
@@ -26,7 +26,7 @@ namespace Array
 
     }
 
-    public class Square : Shape
+    public class Square : Shape1
     {
 
         public override void draw()
@@ -46,16 +46,16 @@ namespace Array
         public static void Main(string[] args)
         {
 
-            Shape s = new Shape();
-            s.draw();
+            // s = new Shape();
+           // s.draw();
 
-            Shape c = new circle();
+//Shape c = new circle();
 
-            c.draw();
+           // c.draw();
 
-            Shape sd =new Square();
+          ////  Shape sd =new Square();
 
-            sd.draw();
+           // sd.draw();
 
 
 
